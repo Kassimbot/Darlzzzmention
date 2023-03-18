@@ -26,8 +26,7 @@ async def start(event):
     buttons=(
       [
         Button.url('☆ sᴜᴘᴘᴏʀᴛ ☆', 'https://t.me/TaMilChAtLiFeLiNeGrOuP'),
-        Button.url('☆ ᴄʜᴀɴɴᴇʟ ☆', 'https://t.me/DarlzzzBots'),
-        Button.url('☆ ᴄᴏᴍᴍᴀɴᴅs ☆', 'https://telegra.ph/DARLZZZ-MENTION-ROBOT-COMMANDS-03-18')  
+        Button.url('☆ ᴄʜᴀɴɴᴇʟ ☆', 'https://t.me/DarlzzzBots'),  
       ]
     )
   )
@@ -42,7 +41,6 @@ async def help(event):
       [
         Button.url('☆ sᴜᴘᴘᴏʀᴛ ☆', 'https://t.me/TaMilChAtLiFeLiNeGrOuP'),
         Button.url('☆ ᴀᴅᴅ ᴍᴇ ☆', 'https://t.me/Darlzzzmentionbot?startgroup=true'),
-        Button.url('☆ ᴄᴏᴍᴍᴀᴍᴅᴀ ☆', 'https://telegra.ph/DARLZZZ-MENTION-ROBOT-COMMANDS-03-18')
       ]
     )
   )
