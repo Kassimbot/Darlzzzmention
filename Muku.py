@@ -21,28 +21,28 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-    "__**𝐈'𝐦 ⚡️ 𝐀𝐋𝐈𝐄𝐍 𝐓𝐀𝐆 ⚡️**, 𝐢 𝐂𝐚𝐧 𝐌𝐞𝐧𝐭𝐢𝐨𝐧 𝐀𝐥𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 𝐈𝐧 𝐆𝐫𝐨𝐮𝐩 𝐎𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🥀\n𝐂𝐥𝐢𝐜𝐤 **/help** 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧__\n\n 𝐅𝐨𝐥𝐥𝐨𝐰 [𝐀𝐋𝐈𝚵𝐍™ 𝐗](https://t.me/ALIEN_X_SUPPORT) 𝗢𝗻 𝐓𝐞𝐥𝐞𝐆𝐫𝐚𝐦",
+    "__**𝐈'𝐦 ⚡️𝐃𝐀𝐑𝐋𝐙𝐙𝐙⚡️**, 𝐢 𝐂𝐚𝐧 𝐌𝐞𝐧𝐭𝐢𝐨𝐧 𝐀𝐥𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 𝐈𝐧 𝐆𝐫𝐨𝐮𝐩 𝐎𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🥀\n𝐂𝐥𝐢𝐜𝐤 **/help** 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧__\n\n 𝐅𝐨𝐥𝐥𝐨𝐰 [𝐃 ᴀ 𝐑 ʟ 𝐙 ᴢ 𝐙 ](https://t.me/kassim_darlzzz)",
     link_preview=False,
     buttons=(
       [
-        Button.url('🛠 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 ⚒', 'https://t.me/ALIEN_X_SUPPORT'),
-        Button.url('𝐑𝚵𝐏𝐎 💥', 'https://github.com/Legend-Mukund/TAG-BOT'),
-        Button.url('🦋 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 🦋', 'https://telegra.ph/ALIEN-MENTION-ROBOT-COMMANDS-01-25-2')  
+        Button.url('🛠 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 ⚒', 'https://t.me/TaMilChAtLiFeLiNeGrOuP'),
+        Button.url('𝗖𝗛𝗔𝗡𝗡𝗘𝗟 💥', 'https://t.me/DarlzzzBots'),
+        Button.url('🦋 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 🦋', 'https://telegra.ph/DARLZZZ-MENTION-ROBOT-COMMANDS-03-18')  
       ]
     )
   )
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Help Menu of 𝐀𝐋𝐈𝐄𝐍 𝐓𝐀𝐆 Bot**\n\nCommand: /all\n__You can use this command with text what you want to mention others.__\nExample: `/all HOI GUYS KEMCHO !`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nUse /cancel To Stop Tagging in group\n\nFollow [𝐀𝐋𝐈𝚵𝐍™ 𝐗](https://t.me/ALIEN_X_SUPPORT) 𝗢𝗡 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠"
-  await event.reply(
+  helptext = "**Help Menu of 𝐃𝐀𝐑𝐋𝐙𝐙𝐙 𝐓𝐀𝐆 Bot**\n\nCommand: /all\n__You can use this command with text what you want to mention others.__\nExample: `/all VANAKKAM`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nUse /cancel To Stop Tagging in group\n\nFollow [𝐃 ᴀ 𝐑 ʟ 𝐙 ᴢ 𝐙 ](https://t.me/KASSIM_DARLZZZ) 𝗢𝗡 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠"
+  await event.reply
     helptext,
     link_preview=False,
     buttons=(
       [
-        Button.url('🛠 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 ⚒', 'https://t.me/ALIEN_X_SUPPORT'),
-        Button.url('⚡️𝐀𝐃𝐃 𝐌𝚵 ⚡️', 'https://t.me/ALIEN_MENTION_ROBOT?startgroup=true'),
-        Button.url('🦋 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 🦋', 'https://telegra.ph/ALIEN-MENTION-ROBOT-COMMANDS-01-25-2')
+        Button.url('🛠 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 ⚒', 'https://t.me/TaMilChAtLiFeLiNeGrOuP'),
+        Button.url('⚡️𝐀𝐃𝐃 𝐌𝚵 ⚡️', 'https://t.me/Darlzzzmentionbot?startgroup=true'),
+        Button.url('🦋 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 🦋', 'https://telegra.ph/DARLZZZ-MENTION-ROBOT-COMMANDS-03-18')
       ]
     )
   )
@@ -55,8 +55,8 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('𝐑𝚵𝐏𝐎 💥', 'https://github.com/Legend-Mukund/TAG-BOT'),
-        Button.url('𝐒𝐔𝐏𝐏𝐎𝐑𝐓 👻', 'https://t.me/ALIEN_X_SUPPORT')
+        Button.url('𝗖𝗛𝗔𝗡𝗡𝗘𝗟 💥', 'https://t.me/Darlzzzbots'),
+        Button.url('𝐒𝐔𝐏𝐏𝐎𝐑𝐓 👻', 'https://t.me/TaMilChAtLiFeLiNeGrOuP')
       ]
     )
   )    
@@ -135,5 +135,5 @@ async def cancel_spam(event):
       pass
     return await event.respond('__Stopped.__')
 
-print(">> MUKU TAGALL BOT STARTED @ALIEN_X_SUPPORT ❤️<<")
+print(">> DARLZZZ TAGALL BOT STARTED @TaMilChAtLiFeLiNeGrOuP ❤️<<")
 client.run_until_disconnected()
