@@ -21,42 +21,42 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-    "__**𝐈'𝐦 ⚡️𝐃𝐀𝐑𝐋𝐙𝐙𝐙⚡️**, 𝐢 𝐂𝐚𝐧 𝐌𝐞𝐧𝐭𝐢𝐨𝐧 𝐀𝐥𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 𝐈𝐧 𝐆𝐫𝐨𝐮𝐩 𝐎𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🥀\n𝐂𝐥𝐢𝐜𝐤 **/help** 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧__\n\n 𝐅𝐨𝐥𝐥𝐨𝐰 [𝐃 ᴀ 𝐑 ʟ 𝐙 ᴢ 𝐙 ](https://t.me/kassim_darlzzz)",
+    "__**𝐈'𝐦 ⚡️𝐃𝐀𝐑𝐋𝐙𝐙𝐙⚡️**, 𝐢 𝐂𝐚𝐧 𝐌𝐞𝐧𝐭𝐢𝐨𝐧 𝐀𝐥𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 𝐈𝐧 𝐆𝐫𝐨𝐮𝐩 𝐎𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🥀\n𝐂𝐥𝐢𝐜𝐤 **/help** 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧__\n\n ᴏᴡɴᴇʀ [ᴅᴀʀʟᴢᴢᴢ](https://t.me/kassim_darlzzz)",
     link_preview=False,
     buttons=(
       [
-        Button.url('🛠 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 ⚒', 'https://t.me/TaMilChAtLiFeLiNeGrOuP'),
-        Button.url('𝗖𝗛𝗔𝗡𝗡𝗘𝗟 💥', 'https://t.me/DarlzzzBots'),
-        Button.url('🦋 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 🦋', 'https://telegra.ph/DARLZZZ-MENTION-ROBOT-COMMANDS-03-18')  
+        Button.url('☆ sᴜᴘᴘᴏʀᴛ ☆', 'https://t.me/TaMilChAtLiFeLiNeGrOuP'),
+        Button.url('☆ ᴄʜᴀɴɴᴇʟ ☆', 'https://t.me/DarlzzzBots'),
+        Button.url('☆ ᴄᴏᴍᴍᴀɴᴅs ☆', 'https://telegra.ph/DARLZZZ-MENTION-ROBOT-COMMANDS-03-18')  
       ]
     )
   )
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Help Menu of 𝐃𝐀𝐑𝐋𝐙𝐙𝐙 𝐓𝐀𝐆 Bot**\n\nCommand: /all\n__You can use this command with text what you want to mention others.__\nExample: `/all VANAKKAM`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nUse /cancel To Stop Tagging in group\n\nFollow [𝐃 ᴀ 𝐑 ʟ 𝐙 ᴢ 𝐙 ](https://t.me/KASSIM_DARLZZZ) 𝗢𝗡 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠"
+  helptext = "**Help Menu of 𝐃𝐀𝐑𝐋𝐙𝐙𝐙 𝐓𝐀𝐆 Bot**\n\nCommand: /all\n__You can use this command with text what you want to mention others.__\nExample: `/all VANAKKAM`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nUse /cancel To Stop Tagging in group\n\nowner [𝐃 ᴀ 𝐑 ʟ 𝐙 ᴢ 𝐙 ](https://t.me/KASSIM_DARLZZZ)"
   await event.reply(
     helptext,
     link_preview=False,
     buttons=(
       [
-        Button.url('🛠 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 ⚒', 'https://t.me/TaMilChAtLiFeLiNeGrOuP'),
-        Button.url('⚡️𝐀𝐃𝐃 𝐌𝚵 ⚡️', 'https://t.me/Darlzzzmentionbot?startgroup=true'),
-        Button.url('🦋 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 🦋', 'https://telegra.ph/DARLZZZ-MENTION-ROBOT-COMMANDS-03-18')
+        Button.url('☆ sᴜᴘᴘᴏʀᴛ ☆', 'https://t.me/TaMilChAtLiFeLiNeGrOuP'),
+        Button.url('☆ ᴀᴅᴅ ᴍᴇ ☆', 'https://t.me/Darlzzzmentionbot?startgroup=true'),
+        Button.url('☆ ᴄᴏᴍᴍᴀᴍᴅᴀ ☆', 'https://telegra.ph/DARLZZZ-MENTION-ROBOT-COMMANDS-03-18')
       ]
     )
   )
     
 @client.on(events.NewMessage(pattern="^/repo$"))
 async def help(event):
-  helptext = "**ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇᴘᴏ ᴏꜰ ᴛʜᴇ ᴀʟɪᴇɴ x ᴛᴀɢ ʀᴏʙᴏᴛ ᴊᴏɪɴ  [*•.¸♡ ❥𝐀𝐋𝐈𝚵𝐍™ 𝐗ఌ ♡¸.•*](https://t.me/ALIEN_X_SUPPORT) ɪꜰ ᴜ ʜᴀᴠᴇ ᴀɴʏ Qᴜᴇʀʏ.**"
+  helptext = "**ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇᴘᴏ ᴏꜰ ᴛʜᴇ ᴀʟɪᴇɴ x ᴛᴀɢ ʀᴏʙᴏᴛ ᴊᴏɪɴ  [*☆ ʟɪғᴇ ʟɪɴᴇ ☆*](https://t.me/TaMilChAtLiFeLiNeGrOuP) ɪꜰ ᴜ ʜᴀᴠᴇ ᴀɴʏ Qᴜᴇʀʏ.**"
   await event.reply(
     helptext,
     link_preview=False,
     buttons=(
       [
-        Button.url('𝗖𝗛𝗔𝗡𝗡𝗘𝗟 💥', 'https://t.me/Darlzzzbots'),
-        Button.url('𝐒𝐔𝐏𝐏𝐎𝐑𝐓 👻', 'https://t.me/TaMilChAtLiFeLiNeGrOuP')
+        Button.url('☆ ᴄʜᴀɴɴᴇʟ ☆', 'https://t.me/Darlzzzbots'),
+        Button.url('☆ sᴜᴘᴘᴏʀᴛ ☆', 'https://t.me/TaMilChAtLiFeLiNeGrOuP')
       ]
     )
   )    
@@ -87,7 +87,7 @@ async def all(event):
     ):
       is_admin = True
   if not is_admin:
-    return await event.respond("__Only Admins Can Mention All\n\nFor More Go On @ALIEN_X_SUPPORT !!!__")
+    return await event.respond("__Only Admins Can Mention All\n\nFor More Go On @TaMilChAtLiFeLiNeGrOuP !!!__")
   
   if event.pattern_match.group(1) and event.is_reply:
     return await event.respond("__Give me one argument!__")
@@ -112,7 +112,7 @@ async def all(event):
     usrtxt += f"[{usr.first_name}](tg://user?id={usr.id}) "
     if usrnum == 5:
       if mode == "text_on_cmd":
-        txt = f"{usrtxt}\n\n{msg}\n\nMade by [𝐌𝐔𝐊𝐔𝐍𝐃](https://t.me/ABOUT_MUKUND) 💥❤️"
+        txt = f"{usrtxt}\n\n{msg}\n\nMade by [ᴅᴀʀʟᴢᴢᴢ](https://t.me/kassim_darlzzz) 💥❤️"
         await client.send_message(chat_id, txt)
       elif mode == "text_on_reply":
         await msg.reply(usrtxt)
