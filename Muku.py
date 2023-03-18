@@ -35,7 +35,7 @@ async def start(event):
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
   helptext = "**Help Menu of 𝐃𝐀𝐑𝐋𝐙𝐙𝐙 𝐓𝐀𝐆 Bot**\n\nCommand: /all\n__You can use this command with text what you want to mention others.__\nExample: `/all VANAKKAM`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nUse /cancel To Stop Tagging in group\n\nFollow [𝐃 ᴀ 𝐑 ʟ 𝐙 ᴢ 𝐙 ](https://t.me/KASSIM_DARLZZZ) 𝗢𝗡 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠"
-  await event.reply
+  await event.reply(
     helptext,
     link_preview=False,
     buttons=(
